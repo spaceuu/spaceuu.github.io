@@ -1,0 +1,15 @@
+# Site settings
+title: Space UU
+email: your-email@domain.com
+description: "Space UU website"
+baseurl: ""
+url: "http://spaceuu.kr"
+twitter_username: spaceuu
+github_username:  spaceuu
+
+# Build settings
+markdown: kramdown
+permalink: none
+# permalink: pretty
+
+# relative_permalinks: false
