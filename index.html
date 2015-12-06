@@ -46,6 +46,84 @@ banner: /img/yo.jpg
 
         <hr>
 
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">오픈 이벤트</h2>
+
+                {% for event in site.data.events %}
+
+                <div class="col-md-4">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">{{ event.title }}</h3>
+                        </div>
+                        <ul class="list-group">
+                            <li class="list-group-item">{{ event.time }}</li>
+                            <li class="list-group-item"><a class="btn btn-primary" href="{{ event.link }}" role="button">신청하기 »</a></li>
+                        </ul>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+
+          <!-- Content Row -->
+        <div class="row">
+
+          <div class="col-lg-12">
+                <h2 class="page-header">Space UU 멤버 모집 중</h2>
+            </div>        
+            <div class="col-md-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">1개월 멤버쉽</h3>
+                    </div>
+                    <div class="panel-body">
+                        <span class="price"><sup>월</sup>7<sup>만원</sup></span>
+                        <span class="period">7만원</span>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item"></li>
+                    
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-primary text-center">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">6개월 멤버쉽 <span class="label label-success">추천</span></h3>
+                    </div>
+                    <div class="panel-body">
+                        <span class="price"><sup>월</sup>5<sup>만원</sup></span>
+                        <span class="period">30만원</span>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">월 <strong>2 만원</strong> 할인 혜택</li>
+  
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">3개월 멤버쉽</h3>
+                    </div>
+                    <div class="panel-body">
+                        <span class="price"><sup>월</sup>6<sup>만원</sup></span>
+                        <span class="period">18만원</span>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">월 <strong>1 만원</strong> 할인 혜택</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
         <!-- Call to Action Section -->
         <div class="well">
             <div class="row">
