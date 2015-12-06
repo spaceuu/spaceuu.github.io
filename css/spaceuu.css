@@ -6,9 +6,13 @@
 
 /* Global Styles */
 
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 html,
 body {
     height: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 body {
