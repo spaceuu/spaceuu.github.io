@@ -2,12 +2,14 @@
     <div class="col-lg-12"><h2 class="page-header">오픈 이벤트</h2></div>
     {% for event in site.data.events %}
     <div class="col-md-4">
-        <div class="panel panel-default text-center">
-            <div class="panel-heading"><h3 class="panel-title">{{ event.title }}</h3></div>
-            <ul class="list-group">
-                <li class="list-group-item">{{ event.time }}</li>
-                <li class="list-group-item"><a class="btn btn-primary" href="{{ event.link }}" role="button">신청하기 »</a></li>
-            </ul>
+        <div class="thumbnail">
+            <h3>{{ event.title }}</h3>
+            <h4>{{ event.time }}</h4>
+            {% if event.status == "active" %}
+            <p><a class="btn btn-primary" href="{{ event.link }}" role="button">신청하기</a></p>
+            {% else %}
+            <p><span class="btn btn-default">신청마감</span></p>
+            {% endif %}
         </div>
     </div>
     {% endfor %}
