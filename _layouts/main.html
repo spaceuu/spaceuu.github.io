@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	{% include head.html %}
+	{% include twitter_card.html %}
+	</head>
+	<body>
+	{% include nav.html %}
+		{{ content }}
+	{% include main/event.html %}
+	{% include main/location.html %}
+
+	{% include footer.html %}
+	</body>
+</html>

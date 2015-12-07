@@ -1,0 +1,14 @@
+<div class="container"><div class="row">
+    <div class="col-lg-12"><h2 class="page-header">오픈 이벤트</h2></div>
+    {% for event in site.data.events %}
+    <div class="col-md-4">
+        <div class="panel panel-default text-center">
+            <div class="panel-heading"><h3 class="panel-title">{{ event.title }}</h3></div>
+            <ul class="list-group">
+                <li class="list-group-item">{{ event.time }}</li>
+                <li class="list-group-item"><a class="btn btn-primary" href="{{ event.link }}" role="button">신청하기 »</a></li>
+            </ul>
+        </div>
+    </div>
+    {% endfor %}
+</div></div>
