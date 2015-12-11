@@ -5,6 +5,8 @@
 
 $font-stack:    'Noto Sans KR', sans-serif;
 $primary-color: #333;
+$primary-background-color: #233140;
+$secondary-background-color: #233140;
 
 html,
 body {
@@ -19,4 +21,9 @@ body {
 img .eventlogo {
 	width : 100px;
 	height : 100px;
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: $primary-background-color;
 }

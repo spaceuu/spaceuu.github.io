@@ -1,0 +1,15 @@
+- title: "Facebook"
+  fa-icon: "fa-facebook-square"
+  link: "https://facebook.com/uu.space.uu"
+
+- title: "Twitter"
+  fa-icon: "fa-twitter-square"
+  link: "https://twitter.com/spaceuu"
+
+- title: "github"
+  fa-icon: "fa-github-square"
+  link: "https://github.com/spaceuu"
+
+- title: "instagram"
+  fa-icon: "fa-instagram"
+  link: "https://www.instagram.com/uu.space.uu"
