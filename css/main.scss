@@ -6,7 +6,7 @@
 $font-stack:    'Noto Sans KR', sans-serif;
 $primary-color: #333;
 $primary-background-color: #233140;
-$secondary-background-color: #233140;
+$secondary-background-color: #2c3e50;
 
 html,
 body {
@@ -23,7 +23,19 @@ img .eventlogo {
 	height : 100px;
 }
 
-footer .footer-below {
-    padding: 25px 0;
-    background-color: $primary-background-color;
+
+footer {
+	color: #fff;
+	padding-top: 20px;
+
+	.footer-above {
+		padding: 10px 0;
+		background-color: $secondary-background-color;
+	}
+
+	.footer-below {
+		padding: 15px 0;
+		background-color: $primary-background-color;
+	}
 }
+
