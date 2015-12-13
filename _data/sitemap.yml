@@ -1,0 +1,15 @@
+- name: "소개"
+  link: "/about"
+  type: internal
+
+- name: "오픈이벤트"
+  link: "/meetup"
+  type: internal
+
+- name: "Facebook Page"
+  link: "https://www.facebook.com/uu.space.uu"
+  type: external
+
+- name: "멤버쉽 신청"
+  link: "http://goo.gl/forms/qi5yMll1RC"
+  type: external

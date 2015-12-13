@@ -13,3 +13,8 @@ permalink: none
 # permalink: pretty
 
 # relative_permalinks: false
+
+
+collections:
+  meetup:
+    output: true
