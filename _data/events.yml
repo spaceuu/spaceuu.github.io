@@ -1,8 +1,26 @@
+- title: "수요미친회 10회"
+  desc: ""
+  time: "1월 13일 수요일 오후 8시"
+  link: "http://goo.gl/forms/iWJgxuojD8"
+  status: active
+
+- title: "수요미친회 9회"
+  desc: ""
+  time: "1월 6일 수요일 오후 8시"
+  link: "http://goo.gl/forms/rMkYZ8wo8L"
+  status: active
+
+- title: "수요미친회 8회"
+  desc: ""
+  time: "12월 30일 수요일 오후 8시"
+  link: ""
+  status: close
+
 - title: "수요미친회 7회"
   desc: ""
   time: "12월 23일 수요일 오후 8시"
   link: "http://goo.gl/forms/hjYxuFAzr7"
-  status: active
+  status: close
 
 - title: "수요미친회 6회"
   desc: ""
@@ -44,4 +62,3 @@
   time: "12월 11일 수요일 오후 8시"
   link: ""
   status: close
-
